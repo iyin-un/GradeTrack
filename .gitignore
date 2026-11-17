@@ -1,0 +1,36 @@
+# CMake and generated build files
+/build/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+build.ninja
+.ninja_*
+
+# Qt generated files
+moc_*.cpp
+ui_*.h
+*_autogen/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.user
+*.user.*
+
+# Compiled binaries and debug symbols
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.exe
+*.pdb
+
+# Local application data and environment secrets
+gradetrack-data.json
+.env
+.env.*
+!.env.example
